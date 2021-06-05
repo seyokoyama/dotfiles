@@ -28,6 +28,9 @@ hook_add = '''
 
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+hook_add = '''
+  source ~/.config/nvim/plugins/vim-gitgutter.rc.vim
+'''
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
