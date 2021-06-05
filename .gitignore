@@ -1,0 +1,2 @@
+# レポジトリは除外する
+./config/nvim/dein/repos/*
