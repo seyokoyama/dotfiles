@@ -28,12 +28,6 @@ inoremap <C-k> <Up>
 inoremap <C-h> <Left>
 inoremap <C-l> <Right>
 
-" タブ移動
-nnoremap <C-n> gt
-nnoremap <C-p> gT
-nnoremap <C-k> :bprev
-nnoremap <C-j> :bnext
-
 let g:python3_host_prog = '/usr/bin/python3'
 if &compatible
   set nocompatible

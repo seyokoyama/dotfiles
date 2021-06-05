@@ -34,5 +34,7 @@ hook_add = '''
 
 [[plugins]]
 repo = 'scrooloose/nerdtree'
-
+hook_add = '''
+  source ~/.config/nvim/plugins/nerdtree.rc.vim
+'''
 
